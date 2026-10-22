@@ -1,0 +1,36 @@
+{
+    "model_type": "XGBClassifier",
+    "target_column": "root_cause",
+    "class_names": [
+        "cognitive_fatigue",
+        "linguistic_misunderstanding",
+        "normal_performance_variation",
+        "structural_prerequisite_failure"
+    ],
+    "skill_mapping": {
+        "S01": 0,
+        "S02": 1,
+        "S03": 2,
+        "S04": 3,
+        "S05": 4,
+        "S06": 5,
+        "S07": 6,
+        "S08": 7
+    },
+    "excluded_columns": [
+        "student_id",
+        "question_id",
+        "timestamp",
+        "root_cause"
+    ],
+    "random_state": 42,
+    "train_rows": 35000,
+    "validation_rows": 7500,
+    "test_rows": 7500,
+    "test_metrics": {
+        "accuracy": 0.9604,
+        "macro_precision": 0.938610949794108,
+        "macro_recall": 0.9463243333064748,
+        "macro_f1": 0.9423374448146575
+    }
+}

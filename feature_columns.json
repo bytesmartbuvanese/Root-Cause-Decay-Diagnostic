@@ -1,0 +1,23 @@
+[
+    "skill_id",
+    "correct",
+    "elapsed_time_ms",
+    "question_difficulty",
+    "question_attempt_number",
+    "interaction_sequence",
+    "recent_accuracy",
+    "historical_accuracy",
+    "accuracy_decay",
+    "recent_response_time",
+    "response_time_change",
+    "same_skill_error_rate",
+    "cross_skill_error_rate",
+    "prerequisite_failure_rate",
+    "session_length",
+    "time_since_last_interaction",
+    "test_elapsed_time",
+    "interaction_hour",
+    "interaction_day_of_week",
+    "interaction_month",
+    "is_weekend"
+]
